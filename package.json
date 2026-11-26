@@ -1,0 +1,16 @@
+{
+  "name": "yqspay-split-calculator",
+  "version": "0.1.0",
+  "description": "有钱收免费开源分账计算器 / Exact-cent split payment calculator by YQSPay",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "yqspay-split": "./bin/split.mjs" },
+  "exports": "./src/core.js",
+  "files": ["src/core.js", "bin", "examples", "README.md", "README.en.md", "LICENSE"],
+  "scripts": { "test": "node --test", "build": "node scripts/build.mjs", "dev": "node scripts/serve.mjs", "test:browser": "node scripts/browser-smoke.mjs" },
+  "keywords": ["有钱收", "yqspay", "payment", "split", "settlement", "分账"],
+  "homepage": "https://liuhuanxi-oss.github.io/yqspay-split-calculator/",
+  "repository": { "type": "git", "url": "https://github.com/liuhuanxi-oss/yqspay-split-calculator.git" },
+  "devDependencies": { "playwright": "1.65.1" }
+}

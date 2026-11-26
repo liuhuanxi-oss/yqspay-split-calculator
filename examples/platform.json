@@ -1,0 +1,9 @@
+{
+  "total": "1000.00",
+  "fee": { "rate": "0.38", "fixed": "0.00", "mode": "before", "participantId": "" },
+  "participants": [
+    { "id": "platform", "name": "平台佣金", "kind": "percent", "value": "5.00" },
+    { "id": "supplier", "name": "供应商", "kind": "percent", "value": "30.00" },
+    { "id": "store", "name": "门店", "kind": "remainder", "value": "" }
+  ]
+}
